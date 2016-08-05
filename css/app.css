@@ -1,0 +1,19 @@
+#logo-wrapper {
+    position:relative;
+    height: 3351px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+#logo-wrapper img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#logo-wrapper img.top:hover {
+    opacity:0;
+}
