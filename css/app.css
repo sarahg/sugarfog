@@ -1,5 +1,6 @@
 #logo-wrapper {
-    position:relative;
+    position: relative;
+    top: 264px;
     height: 3351px;
     width: 280px;
     margin: 0 auto;
@@ -16,4 +17,19 @@
 
 #logo-wrapper img.top:hover {
     opacity:0;
+}
+
+#top-bar {
+    height: 72px;
+    width: 100%;
+    box-shadow: 0 4px 5px 0px rgba(0, 0, 0, .1);
+}
+#top-bar ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 130px;
+    margin-top: 23px;
+}
+#top-bar li {
+    display: inline-block;
 }
