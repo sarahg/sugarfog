@@ -5,6 +5,16 @@
     width: 280px;
     margin: 0 auto;
 }
+@media (max-width: 959px) {
+    #logo-wrapper {
+        top: 200px;
+    }
+}
+@media (max-width: 767px) {
+    #logo-wrapper {
+        top: 100px;
+    }
+}
 
 #logo-wrapper img {
     position: absolute;
