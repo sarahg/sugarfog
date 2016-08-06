@@ -32,4 +32,12 @@
 }
 #top-bar li {
     display: inline-block;
+    margin-left: 10px;
+}
+#top-bar a {
+    color: #ff3db4;
+    transition: all 0.2s linear;
+}
+#top-bar a:hover {
+    color: #bababa;
 }
