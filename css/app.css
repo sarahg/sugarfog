@@ -16,31 +16,18 @@
     }
 }
 
-#logo-wrapper img {
-    position: absolute;
-    left: 0;
-}
-
-#logo-wrapper img.top:hover {
-    opacity:0;
-}
-
-#top-bar {
-    height: 62px;
+#top-bar ul {
+    list-style-type: none;
     width: 100%;
     box-shadow: 0 6px 7px 0px rgba(0, 0, 0, .1);
-}
-#top-bar ul {
-    float: right;
-    list-style-type: none;
-    margin-right: 130px;
-    margin-top: 23px;
+    text-align: right;
+    padding: 20px 20px 20px;
+    margin: 0;
 }
 @media (max-width: 767px) {
     #top-bar ul {
         float: none;
         text-align: center;
-        margin: 23px 0 0;
     }
 }
 #top-bar li {

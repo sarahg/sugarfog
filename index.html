@@ -46,11 +46,11 @@
     <script type="text/javascript" src="/js/vendor/jquery.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-          $('#logo-wrapper img').hover(function() {
+          $('#logo-wrapper img').on('click mouseover mouseout', function() {
             var _this = $(this);
-            var current = _this.attr("src");
-            var swap = _this.attr("data-swap");
-            _this.attr('src', swap).attr("data-swap",current);
+            var current = _this.attr('src');
+            var swap = _this.attr('data-swap');
+            _this.attr('src', swap).attr('data-swap', current);
           });
       });
     </script>
