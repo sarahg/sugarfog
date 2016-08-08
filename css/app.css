@@ -26,7 +26,7 @@
 }
 
 #top-bar {
-    height: 72px;
+    height: 62px;
     width: 100%;
     box-shadow: 0 6px 7px 0px rgba(0, 0, 0, .1);
 }
@@ -42,8 +42,38 @@
 }
 #top-bar a {
     color: #ff3db4;
-    transition: all 0.2s linear;
 }
 #top-bar a:hover {
     color: #bababa;
 }
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inherit;
+}
+.facebook {
+    background: url('../images/social/facebook.png') no-repeat;
+    height: 26px;
+    width: 27px;
+}
+.facebook:hover {
+    background: url('../images/social/facebook-hover.png') no-repeat;
+}
+.instagram {
+    background: url('../images/social/instagram.png') no-repeat;
+    height: 26px;
+    width: 27px;
+}
+.instagram:hover {
+    background: url('../images/social/instagram-hover.png') no-repeat;
+}
+.email {
+    width: 33px;
+    height: 26px;
+    background: url('../images/social/email.png') no-repeat;
+}
+.email:hover {
+    background: url('../images/social/email-hover.png') no-repeat;
+}
+
