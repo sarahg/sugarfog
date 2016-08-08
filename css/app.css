@@ -36,6 +36,13 @@
     margin-right: 130px;
     margin-top: 23px;
 }
+@media (max-width: 767px) {
+    #top-bar ul {
+        float: none;
+        text-align: center;
+        margin: 23px 0 0;
+    }
+}
 #top-bar li {
     display: inline-block;
     margin-left: 10px;
