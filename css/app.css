@@ -1,8 +1,7 @@
 #logo-wrapper {
     position: relative;
     top: 264px;
-    height: 335px;
-    width: 280px;
+    width: 340px;
     margin: 0 auto;
 }
 @media (max-width: 959px) {
@@ -32,7 +31,7 @@
 #top-bar {
     height: 72px;
     width: 100%;
-    box-shadow: 0 4px 5px 0px rgba(0, 0, 0, .1);
+    box-shadow: 0 6px 7px 0px rgba(0, 0, 0, .1);
 }
 #top-bar ul {
     float: right;
