@@ -59,28 +59,46 @@
     overflow: hidden;
     display: inherit;
 }
-.facebook {
-    background: url('../images/social/facebook.png') no-repeat;
-    height: 26px;
-    width: 27px;
+#top-bar li a {
+    background-image: url('../images/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
 }
-.facebook:hover {
-    background: url('../images/social/facebook-hover.png') no-repeat;
-}
-.instagram {
-    background: url('../images/social/instagram.png') no-repeat;
-    height: 26px;
-    width: 27px;
-}
-.instagram:hover {
-    background: url('../images/social/instagram-hover.png') no-repeat;
-}
+
 .email {
     width: 33px;
     height: 26px;
-    background: url('../images/social/email.png') no-repeat;
+    background-position: -5px -5px;
 }
+
 .email:hover {
-    background: url('../images/social/email-hover.png') no-repeat;
+    width: 33px;
+    height: 26px;
+    background-position: -48px -5px;
 }
+
+.facebook {
+    width: 27px;
+    height: 26px;
+    background-position: -5px -41px;
+}
+
+.facebook:hover {
+    width: 27px;
+    height: 26px;
+    background-position: -42px -41px;
+}
+
+.instagram {
+    width: 27px;
+    height: 26px;
+    background-position: -91px -5px;
+}
+
+.instagram:hover {
+    width: 27px;
+    height: 26px;
+    background-position: -79px -41px;
+}
+
 
