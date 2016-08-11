@@ -21,13 +21,14 @@
     width: 100%;
     box-shadow: 0 6px 7px 0px rgba(0, 0, 0, .1);
     text-align: right;
-    padding: 20px 20px 20px;
+    padding: 20px 130px 20px;
     margin: 0;
 }
 @media (max-width: 767px) {
     #top-bar ul {
         float: none;
         text-align: center;
+        padding: 20px 0px;
     }
 }
 #top-bar li {
@@ -53,39 +54,39 @@
 }
 
 .email {
-    width: 33px;
-    height: 26px;
+    width: 35px;
+    height: 34px;
     background-position: -5px -5px;
 }
 
 .email:hover {
-    width: 33px;
-    height: 26px;
-    background-position: -48px -5px;
+    width: 35px;
+    height: 34px;
+    background-position: -50px -5px;
 }
 
 .facebook {
-    width: 27px;
-    height: 26px;
-    background-position: -5px -41px;
+    width: 35px;
+    height: 34px;
+    background-position: -5px -49px;
 }
 
 .facebook:hover {
-    width: 27px;
-    height: 26px;
-    background-position: -42px -41px;
+    width: 35px;
+    height: 34px;
+    background-position: -50px -49px;
 }
 
 .instagram {
-    width: 27px;
-    height: 26px;
-    background-position: -91px -5px;
+    width: 36px;
+    height: 34px;
+    background-position: -95px -5px;
 }
 
 .instagram:hover {
-    width: 27px;
-    height: 26px;
-    background-position: -79px -41px;
+    width: 36px;
+    height: 34px;
+    background-position: -95px -49px;
 }
 
 
