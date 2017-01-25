@@ -1,21 +1,4 @@
-#logo-wrapper {
-    position: relative;
-    top: 264px;
-    width: 340px;
-    margin: 0 auto;
-    max-width: 90%;
-}
-@media (max-width: 959px) {
-    #logo-wrapper {
-        top: 200px;
-    }
-}
-@media (max-width: 767px) {
-    #logo-wrapper {
-        top: 100px;
-    }
-}
-
+/* Header */
 #top-bar ul {
     list-style-type: none;
     width: 100%;
@@ -53,40 +36,55 @@
     display: block;
 }
 
+/* Icons */
 .email {
     width: 35px;
     height: 34px;
     background-position: -5px -5px;
 }
-
 .email:hover {
     width: 35px;
     height: 34px;
     background-position: -50px -5px;
 }
-
-.facebook {
+/*.facebook {
     width: 35px;
     height: 34px;
     background-position: -5px -49px;
 }
-
 .facebook:hover {
     width: 35px;
     height: 34px;
     background-position: -50px -49px;
 }
-
 .instagram {
     width: 36px;
     height: 34px;
     background-position: -95px -5px;
 }
-
 .instagram:hover {
     width: 36px;
     height: 34px;
     background-position: -95px -49px;
+}*/
+
+/* Content */
+#logo-wrapper {
+    position: relative;
+    top: 264px;
+    width: 340px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+@media (max-width: 959px) {
+    #logo-wrapper {
+        top: 200px;
+    }
+}
+@media (max-width: 767px) {
+    #logo-wrapper {
+        top: 100px;
+    }
 }
 
-
+/* Footer */
